@@ -64,8 +64,14 @@ let numberMultiply = numbersArray.map(function(number) {
 
 
 let fruitIndexOf = fruitsArray.indexOf("Mango")
-console.log(fruitIndexOf);
+// console.log(fruitIndexOf);
 
+// OPGAVE 8: fjern et element fra array og udskriv det opdateret array-----
+
+let removeDog = dogsArray.filter(function(dog) {
+    return dog != "Polly"
+});
+console.log(removeDog);
 
 
 
