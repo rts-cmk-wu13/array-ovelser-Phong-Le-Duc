@@ -48,12 +48,24 @@ let hasBagheera = catsArray.find(function(cat){
 
     //    console.log("opgave 4b", hasSalem);
 
-// OPGAVE 5: find element, hvis ikke element findes, return undefined ------------ løst med find
+// OPGAVE 5: gang alle elementerne i array med 3 ------------ løst med find
 
 let numberMultiply = numbersArray.map(function(number) {
     return number * 3 
 }) 
-console.log("opgave 5",numberMultiply);
+// console.log("opgave 5",numberMultiply);
+
+// OPGAVE 6: udskriv alle elementer i et array ud i en string -----  løst med join
+
+// console.log("opgave 6", dogsArray.join(", ")); 
+
+
+// OPGAVE 7 find index af mango ---- løst med indexof :
+
+
+let fruitIndexOf = fruitsArray.indexOf("Mango")
+console.log(fruitIndexOf);
+
 
 
 
