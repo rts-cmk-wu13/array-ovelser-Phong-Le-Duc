@@ -19,25 +19,25 @@ document.addEventListener("DOMContentLoaded", function () {
     // OPGAVE 3A: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
 
     let hasTrixie = dogsArray.includes("Trixie");
-    // console.log(hasTrixie);
+    // console.log("opgave 3a", hasTrixie);
      
     
     // OPGAVE 3B: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
 
 let hasBaxter = dogsArray.includes("Baxter");
-//   console.log(hasBaxter);
+//   console.log("opgave 3b", hasBaxter);
   
   
   // OPGAVE 4A: find element, hvis ikke element findes, return undefined ------------ løst med find
 
 //   let hasBagheera = catsArray.includes("Bagheera");
-//   console.log(hasBagheera);
+//   console.log("opgave 4a", hasBagheera);
 
 let hasBagheera = catsArray.find(function(cat){
     return cat === "Bagheera";
    
    }) 
-//    console.log(hasBagheera);
+//    console.log("opgave 4a", hasBagheera);
 
     // OPGAVE 4B: find element, hvis ikke element findes, return undefined ------------ løst med find
 
@@ -46,7 +46,15 @@ let hasBagheera = catsArray.find(function(cat){
        
        }) 
 
-       console.log(hasSalem);
+    //    console.log("opgave 4b", hasSalem);
+
+// OPGAVE 5: find element, hvis ikke element findes, return undefined ------------ løst med find
+
+let numberMultiply = numbersArray.map(function(number) {
+    return number * 3 
+}) 
+console.log("opgave 5",numberMultiply);
+
 
 
 }) // ends DOMContentLoaded
