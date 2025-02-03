@@ -63,9 +63,12 @@ let numberMultiply = numbersArray.map(function(number) {
 // OPGAVE 7 find index af mango ---- løst med indexof :
 
 
-let fruitIndexOf = fruitsArray.indexOf("Mango")
-console.log(fruitIndexOf);
+// let fruitIndexOf = fruitsArray.indexOf("Mango")
+// console.log(fruitIndexOf);
 
+
+let fruitIndexOf = fruitsArray.indexOf("Blåbær")
+// console.log(fruitIndexOf);
 
 
 
