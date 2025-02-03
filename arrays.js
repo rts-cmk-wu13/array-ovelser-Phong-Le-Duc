@@ -6,17 +6,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Løs opgaverne herunder --- 
 
-    // OPGAVE 1 ----------------- LØST MED FILTER METHOD
+    // OPGAVE 1: FIND OG UDSKRIV ALLE TAL OVER 20 ----------------- LØST MED FILTER METHOD
     let newNumbers = numbersArray.filter(function (number) {
         return number > 20
     });
-    // console.log(newNumbers);
-   
-   // OPGAVE 2 ------------ LØST MED PUSH 
-    catsArray.push("sniffles");
-    // console.log(catsArray);
+    // console.log("opgave 1",newNumbers);
 
-// OPGAVE 2 ------------
+    // OPGAVE 2 TILFØJ NYT ELEMENT TIL ARRAY CatsArray og udskriv ------------ LØST MED PUSH 
+    catsArray.push("sniffles");
+    // console.log("opgave 2", catsArray);
+
+    // OPGAVE 3A: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
+
+    let hasTrixie = dogsArray.includes("Trixie");
+    console.log(hasTrixie);
+     
+    
+    // OPGAVE 3B: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
+
+let hasBaxter = dogsArray.includes("Baxter");
+  console.log(hasBaxter);
+  
+  
+  // OPGAVE 4------------
+    
 
 
 
