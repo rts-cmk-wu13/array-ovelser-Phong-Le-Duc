@@ -66,13 +66,22 @@ let numberMultiply = numbersArray.map(function(number) {
 let fruitIndexOf = fruitsArray.indexOf("Mango")
 // console.log(fruitIndexOf);
 
-// OPGAVE 8: fjern et element fra array og udskriv det opdateret array-----
+// OPGAVE 8: fjern et element fra array og udskriv det opdateret array----- løst med .filter metoden
 
 let removeDog = dogsArray.filter(function(dog) {
     return dog != "Polly"
 });
 console.log(removeDog);
 
+// OPGAVE EKSTRA: udsriv summen af tallene i numberArray ----
+
+let addedNumbers = numbersArray.reduce(function(total, number) {
+    return total + number;
+})
+console.log(addedNumbers);
+
+
 
 
 }) // ends DOMContentLoaded
+
