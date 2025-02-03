@@ -19,19 +19,34 @@ document.addEventListener("DOMContentLoaded", function () {
     // OPGAVE 3A: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
 
     let hasTrixie = dogsArray.includes("Trixie");
-    console.log(hasTrixie);
+    // console.log(hasTrixie);
      
     
     // OPGAVE 3B: CHECK EFTER SPECIFIK ELEMENT I ARRAY OG CHECK OM TRUE ELLER FALSE------------ LØST MED INCLUDES
 
 let hasBaxter = dogsArray.includes("Baxter");
-  console.log(hasBaxter);
+//   console.log(hasBaxter);
   
   
-  // OPGAVE 4------------
-    
+  // OPGAVE 4A: find element, hvis ikke element findes, return undefined ------------ løst med find
 
+//   let hasBagheera = catsArray.includes("Bagheera");
+//   console.log(hasBagheera);
 
+let hasBagheera = catsArray.find(function(cat){
+    return cat === "Bagheera";
+   
+   }) 
+//    console.log(hasBagheera);
+
+    // OPGAVE 4B: find element, hvis ikke element findes, return undefined ------------ løst med find
+
+    let hasSalem = catsArray.find(function(cat){
+        return cat === "Salem";
+       
+       }) 
+
+       console.log(hasSalem);
 
 
 }) // ends DOMContentLoaded
